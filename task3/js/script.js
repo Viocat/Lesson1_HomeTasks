@@ -26,29 +26,33 @@
 
 let operand1 = +prompt("Enter first operand");
 let operand2 = +prompt("Enter seccond operand");
-
-sum(operand1,operand2);
-subtraction(operand1,operand2);
-multiplication(operand1,operand2);
-division(operand1,operand2);
+let sumResult=sum(operand1,operand2);
+let subResult=subtraction(operand1,operand2);
+let multResult=multiplication(operand1,operand2);
+let divResult=division(operand1,operand2);
+console.log(operand1+"+"+operand2+"="+sumResult);
+console.log(operand1+"-"+operand2+"="+subResult);
+console.log(operand1+"*"+operand2+"="+multResult);
+console.log(operand1+"/"+operand2+"="+divResult);
 
 function sum(operand1,operand2){
     let result=operand1+operand2;
-    console.log(operand1+"+"+operand2+"="+result)
+   return result;
 }
 
 function subtraction(operand1,operand2){
     let result=operand1-operand2;
-    console.log(operand1+"-"+operand2+"="+result)
+    return result;
 }
 
 function multiplication(operand1,operand2){
     let result=operand1*operand2;
-    console.log(operand1+"*"+operand2+"="+result)
+    return result;
 }
 
 function division(operand1,operand2){
     let result=operand1/operand2;
-    console.log(operand1+"/"+operand2+"="+result)
+    return result;
 }
+
 
