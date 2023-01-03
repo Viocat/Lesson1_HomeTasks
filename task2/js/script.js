@@ -17,7 +17,7 @@ let ourPlanetName;
 let currentUserName;
 
 // task 3
-let variable='10'+10;
+const variable='10'+10;
 console.log(variable, typeof variable);
 
 //-------------  Lesson 1 HT 3  ----------------
