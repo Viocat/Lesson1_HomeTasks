@@ -8,7 +8,7 @@
 // //-------------  Lesson 1 HT 2  ----------------
 // task 1
 let admin;
-let name='Джон';
+const name='Джон';
 admin=name;
 alert(admin);
 
